@@ -1,6 +1,8 @@
-package com.hunt.manager_app.service;
+package com.hunt.service;
 
-import com.hunt.manager_app.entity.Product;
+
+
+import com.hunt.entity.Product;
 
 import java.util.List;
 import java.util.Optional;

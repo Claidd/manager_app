@@ -1,6 +1,7 @@
-package com.hunt.manager_app.repository;
+package com.hunt.repository;
 
-import com.hunt.manager_app.entity.Product;
+
+import com.hunt.entity.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

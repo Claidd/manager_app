@@ -1,7 +1,8 @@
-package com.hunt.manager_app.service;
+package com.hunt.service;
 
-import com.hunt.manager_app.entity.Product;
-import com.hunt.manager_app.repository.ProductRepository;
+
+import com.hunt.entity.Product;
+import com.hunt.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
-public class DefaultProductService implements ProductService{
+public class DefaultProductService implements ProductService {
 
     private final ProductRepository productRepository;
 
